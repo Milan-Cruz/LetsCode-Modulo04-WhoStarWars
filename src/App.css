@@ -1,0 +1,215 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: starwars;
+    src: url(./fonts/Starjedi.ttf)
+  }
+@font-face {
+    font-family: starwarshol;
+    src: url(./fonts/Starjhol.ttf)
+  }
+
+body {
+    /* background-color: rgb(171, 187, 194); */
+    background: url('./imagens/OuterSpace01.jpg') no-repeat center center fixed;
+    /* color: yellow; */
+    color: rgb(215, 191, 120);
+    /* font-family: 'roboto', 'sans-serif'; */
+    font-family: starwars;
+    margin-top: 0.313rem;
+    font-size: 0.95rem;
+}
+
+/* Menu lateral */
+
+.instrucoes {
+    float: left;
+    width: 29%;
+    /* color: rgb(136, 29, 32); */
+    /* text-shadow: 1px 1px 2px white; */
+    text-shadow: 2px 0 0 rgb(136, 29, 32), -2px 0 0 rgb(136, 29, 32), 0 2px 0 rgb(136, 29, 32), 0 -2px 0 rgb(136, 29, 32), 1px 1px rgb(136, 29, 32), -1px -1px 0 rgb(136, 29, 32), 1px -1px 0 rgb(136, 29, 32), -1px 1px 0 rgb(136, 29, 32);
+    height: 100%;
+    background-color: black;
+    /* background-color:rgb(185, 187, 194); */
+    border: 1px solid rgb(136, 29, 32);
+}
+
+h1 {
+    margin: 0.625rem 0.6rem 0.625rem 0.6rem;
+    /* text-transform: uppercase; */
+    font-size: 1.563rem;
+    text-align: center;
+}
+
+h3{
+    margin: 0.938rem 0.6rem 0.938rem 0.6rem;
+    text-align: center;
+}
+
+h4{
+    margin: 0.938rem 0.6rem 0.938rem 0.6rem;
+    text-align: center;
+}
+
+.cadaCheck {
+    padding-bottom: .4rem;
+}
+
+.filtros {
+    margin-top: 3.75rem;
+    text-align: center;
+}
+
+/* board para escolha */
+
+.container {
+    display: inline-block;
+    box-shadow: 0.188rem 0.063rem 0.188rem 0.063rem rgb(136, 29, 32);
+	text-align: center;
+    /* background: black; */
+    background: rgb(215, 191, 120);
+    /* background-image: url("https://pbs.twimg.com/profile_images/691791624469385216/YRECNGp1_400x400.jpg"); */
+	border-radius: 0.625rem;
+	margin: 0 1.875rem 0.625rem 3.125rem;
+	padding: 1.25rem;
+	/* max-width: 18%; */
+    margin-bottom: 2rem;
+}
+
+.container:hover {
+    background: rgb(145, 207, 234);
+    box-shadow: 0.188rem 0.063rem 0.188rem 0.063rem rgb(175,23,30);
+}
+
+/* .container button {
+    padding: 0.938rem;
+    margin: auto;
+    margin-top: 1.25rem;
+    background-color: rgb(145, 207, 234);
+    color: black;
+    border-radius: 0.625rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #1C1C1C;
+    color: yellow;
+    cursor: pointer;
+    text-transform: uppercase;
+} */
+
+.board {
+    float: right;
+    width: 70%;
+    margin-top: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* <!-- HTML !-->
+<button class="button-8" role="button">Button 8</button> */
+
+/* CSS */
+.button-8 {
+  /* background-color: #e1ecf4; */
+  background-color: aliceblue;
+  border-radius: 3px;
+  border: 1px solid rgb(136, 29, 32);
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: rgb(136, 29, 32);
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  /* background-color: #b3d3ea; */
+  background-color: rgb(145, 207, 234);
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}

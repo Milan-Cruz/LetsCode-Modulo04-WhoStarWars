@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b64162c5.css",
+    "main.js": "/static/js/main.13f3ddd2.js",
+    "static/js/787.bef4e447.chunk.js": "/static/js/787.bef4e447.chunk.js",
+    "static/media/OuterSpace01.jpg": "/static/media/OuterSpace01.24a8d84a75bd46e21d22.jpg",
+    "static/media/Starjhol.ttf": "/static/media/Starjhol.c247ee6825d52f9d0862.ttf",
+    "static/media/Starjedi.ttf": "/static/media/Starjedi.8d577dc1e1755c4860f3.ttf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.b64162c5.css.map": "/static/css/main.b64162c5.css.map",
+    "main.13f3ddd2.js.map": "/static/js/main.13f3ddd2.js.map",
+    "787.bef4e447.chunk.js.map": "/static/js/787.bef4e447.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b64162c5.css",
+    "static/js/main.13f3ddd2.js"
+  ]
+}
